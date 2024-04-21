@@ -13,8 +13,6 @@ genai.configure(api_key="AIzaSyAHB8fva0oJVkCPPwBUwUp6t3fVyX_Yxo0")
 
 # Create a Streamlit application
 def main():
-    st.title("Google Generative AI Image Analysis")
-
     # Upload the image
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg", "gif", "bmp"])
 
